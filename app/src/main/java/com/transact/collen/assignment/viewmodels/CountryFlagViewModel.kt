@@ -3,7 +3,6 @@ package com.transact.collen.assignment.viewmodels
 import android.util.Log
 import android.view.View
 import androidx.databinding.ObservableBoolean
-import androidx.databinding.ObservableField
 import androidx.databinding.ObservableInt
 import androidx.lifecycle.*
 import com.transact.collen.assignment.entities.Flag

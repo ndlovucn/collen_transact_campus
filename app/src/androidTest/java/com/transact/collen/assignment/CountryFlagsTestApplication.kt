@@ -4,7 +4,6 @@ import android.app.Application
 import android.content.Context
 import androidx.test.runner.AndroidJUnitRunner
 import org.koin.android.ext.koin.androidContext
-import org.koin.android.java.KoinAndroidApplication
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 

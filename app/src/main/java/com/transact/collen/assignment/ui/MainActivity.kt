@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.appcompat.widget.Toolbar
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
@@ -14,7 +13,6 @@ import androidx.navigation.ui.NavigationUI
 import com.transact.collen.assignment.R
 import com.transact.collen.assignment.databinding.ActivityMainBinding
 import com.transact.collen.assignment.viewmodels.CountryFlagViewModel
-import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener,
