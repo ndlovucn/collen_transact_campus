@@ -1,6 +1,5 @@
 package com.mywallst.collen.assignment.data
 
-import android.util.Log
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.room.Room
 import androidx.test.espresso.matcher.ViewMatchers

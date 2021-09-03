@@ -4,7 +4,6 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.test.core.app.ApplicationProvider
-import com.transact.collen.assignment.data.FlagEntity
 import com.transact.collen.assignment.entities.Flag
 import com.transact.collen.assignment.utils.getBytesFromBitmap
 import com.transact.collen.assignment.utils.isValidCountryIsoCode
@@ -12,7 +11,6 @@ import com.transact.collen.assignment.utils.mapFlagModelToFlagEntity
 import org.junit.After
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.junit.runners.JUnit4
 import org.koin.core.context.stopKoin
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
