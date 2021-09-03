@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2020. Verizon Connect Ireland Limited. All rights reserved.
- */
-
 package com.transact.collen.assignment.utils
 
 import kotlinx.coroutines.CoroutineDispatcher
