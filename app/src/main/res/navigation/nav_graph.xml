@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/find_flag_destination">
+
+    <fragment
+        android:id="@+id/find_flag_destination"
+        android:name="com.transact.collen.assignment.ui.FindFlagFragment"
+        android:label="@string/find_flag_fragment_label"
+        tools:layout="@layout/find_a_flag_fragment">
+
+        <action
+            android:id="@+id/action_find_flag_to_my_flag_collection"
+            app:destination="@id/MyFlagsCollection" />
+    </fragment>
+    <fragment
+        android:id="@+id/MyFlagsCollection"
+        android:name="com.transact.collen.assignment.ui.MyFlagsFragment"
+        android:label="@string/my_flag_collection_fragment_label"
+        tools:layout="@layout/my_flags_collection">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/find_flag_destination" />
+    </fragment>
+</navigation>

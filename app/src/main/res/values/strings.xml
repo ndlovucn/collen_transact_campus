@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Collen_transact</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="find_flag_fragment_label">Find a flag</string>
+    <string name="my_flag_collection_fragment_label">Flag Collection</string>
+
+    <string name="error_invalid_country_code">Enter a valid Country ISO code</string>
+    <string name="flag_added_to_collection">Flag successfully added to collection</string>
+</resources>
