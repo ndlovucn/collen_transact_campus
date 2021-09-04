@@ -13,7 +13,6 @@ class CountryFlagsTestApplication : Application()  {
         super.onCreate()
         startKoin {
             androidContext(androidContext = this@CountryFlagsTestApplication)
-
         }
     }
 

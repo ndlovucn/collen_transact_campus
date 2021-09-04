@@ -89,9 +89,6 @@ class CountryFlagViewModel(
         filterMutableLiveData.value = query
     }
 
-    fun isPreviewAvailable(): Boolean = flagBlobLiveData.value == null
-
-
     fun resetFilter() {
         filterMutableLiveData.value = ""
         resetFilterMutableLiveData.value = true
